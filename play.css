@@ -20,5 +20,6 @@ p {
 }
 p::first-line {
     color: #18171c;
+    font-weight: lighter;
 
 }
