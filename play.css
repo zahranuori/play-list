@@ -2,7 +2,9 @@
     width: 50px;
     height: 50px;
     border-radius: 3px;
-    margin-top: 30px;
+    margin: 30px 15px 0px 0;
+    float: left;
+
 }
 .flex {
     display: flex;
@@ -12,6 +14,7 @@
     height: 44px;
     display: flex;
     margin-top: 33px;
+    float: right;
 }
 p {
     font-family: 'Roboto', sans-serif;
@@ -22,4 +25,12 @@ p::first-line {
     color: #18171c;
     font-weight: lighter;
 
+}
+.backgournd {
+    width: 300px;
+    height: 600px;
+    border: 13px solid white;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0.5px 1px 0.5px 1px #18171c;
 }
